@@ -29,15 +29,15 @@ header nav ul {
 header nav a {
 	text-decoration:none;
 	display:block;
-	padding:25px;
-	color:white;
+	padding:25px 20px;
+	color:green;
 	font-size:20px;
-	background-color:green;
-	transition:25s;
+	transition:background-color .8s;
+	
 }
 
 /* add hover */
-header nav a:hover {background-color:green; color:white;}
+header nav a:hover {background-color:green;color:white;}
 
 h1,h2,h3 {
   font-weight:bold;
@@ -122,8 +122,8 @@ form {
 }
 
 /* media query */
-@media screen and (max-width:600px){
+@media screen and (min-width:768px){
 	section:nth-child(2) div {
-		flex:1px;
+		flex:.1;
 	}
 }/* end query */
